@@ -1,0 +1,13 @@
+spring:
+  data:
+    neo4j:
+      uri: bolt://localhost:7687
+      username: neo4j
+      password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update # 或者 create
+  neo4j:
+    open-in-view: true
+server:
+  port: 8081
